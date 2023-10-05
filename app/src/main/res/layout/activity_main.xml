@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thực Hành 3"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textAlignment="center"
+        android:text="Đăng ký đề tài tiểu luận Học phần Phát triển ứng dụng di động"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:hint="Kết quả đăng ký thesis"
+        android:textSize="8pt"
+        />0
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị thành viên"
+        android:id="@+id/show"
+        android:onClick="onclick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Nhóm"
+        android:id="@+id/group"
+        android:onClick="onclick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Đề tài"
+        android:id="@+id/thesis"
+        android:onClick="onclick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:id="@+id/exit"
+        android:onClick="onclick"/>
+</LinearLayout>
